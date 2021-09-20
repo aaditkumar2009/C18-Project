@@ -27,7 +27,7 @@ path=createSprite(windowWidth/2,windowHeight/2);
 path.addImage(pathImg);
 path.velocityY = 42;
 //creating boy running
-boy = createSprite(windowWidth/2,windowHeight/2+40,20,20);
+boy = createSprite(windowWidth/2,580,20,20);
 boy.addAnimation("SahilRunning",boyImg);
 endboy = createSprite(windowWidth/2,windowHeight/2,20,20)
 endboy.visible = false;
@@ -104,8 +104,8 @@ function draw() {
   
   drawSprites();
   textSize(20);
+  text("Treasure: "+ treasureCollection,windowWidth/2 + 50,30);
   fill(255);
-  text("Treasure: "+ treasureCollection,windowWidth/2 - 30,30);
   }
 
 }
