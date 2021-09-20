@@ -105,7 +105,7 @@ function draw() {
   drawSprites();
   textSize(20);
   fill(255);
-  text("Treasure: "+ treasureCollection,windowWidth/2 - 20,30);
+  text("Treasure: "+ treasureCollection,windowWidth/2 - 30,30);
   }
 
 }
