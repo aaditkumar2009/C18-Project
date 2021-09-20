@@ -68,7 +68,7 @@ function draw() {
 
 
   //code to reset the background
-  if(path.y > 400 ){
+  if(path.y > height ){
     path.y = height/2;
   }
   
